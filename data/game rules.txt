@@ -1,0 +1,15 @@
+                                        ~~ Info ~~
+The distribution center works as follows:
+1) The user enters the number of ports for UNLOADING goods (3 for example);
+2) The user enters the number of ports for LOADING goods (1 for example);
+3) The user enters the number of TRUCKS that will be handled by the UNLOADING ports (3 for example).
+
+Trucks with goods are generated every 0.5 seconds and contain a random number of goods of a random type. 
+Depending on the quantity of goods and the type of truck, the time of its unloading depends. 
+The truck occupies a free UNLOADING port and unloads the goods to the Distribution Center. If all ports are occupied,
+the truck is placed in a waiting queue. 
+After UNLOADING N trucks (user-defined), the work of the UNLOADING ports is completed, and the information is
+transmitted to the LOADING ports that the UNLOADING ports have completed their work. 
+Further, the LOADING ports stop accepting new trucks, load those vehicles that are already on LOADING and complete their work.
+This stops the program.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
