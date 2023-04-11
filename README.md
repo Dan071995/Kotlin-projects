@@ -1,4 +1,4 @@
-# Kotlin_Flows_example
+# Kotlin_Flows/Coroutine_example
 The scheme of the program:
 ![image](https://user-images.githubusercontent.com/104363713/231083088-40f82781-e540-41cc-b532-8d7e783ffd30.png)
 
